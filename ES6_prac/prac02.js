@@ -31,8 +31,8 @@ function addAsync(a, b, callback){
         callback((a+b)/100);
     }, 3000);
 }
-  
 console.log('before');
+
 addAsync(1, 2, function(result){
     console.log(result);
 });
